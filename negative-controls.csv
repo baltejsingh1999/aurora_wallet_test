@@ -1,0 +1,7 @@
+repo,file,method,rule_id,expected_result,validation_status,notes
+aurora-wallet,src/main/java/lab/wallet/SafeIntegration.java,query,java/sql-injection,no-finding-for-this-rule,expected-not-scanned,Scoped control; unrelated audit rules may still report.
+aurora-wallet,src/main/java/lab/wallet/SafeIntegration.java,query,cwe89-jdbc-sqli,no-finding-for-this-rule,expected-not-scanned,Scoped control; unrelated audit rules may still report.
+aurora-wallet,src/main/java/lab/wallet/SafeIntegration.java,html,java/xss,no-finding-for-this-rule,expected-not-scanned,Scoped control; unrelated audit rules may still report.
+aurora-wallet,src/main/java/lab/wallet/SafeIntegration.java,cookie,java/insecure-cookie,no-finding-for-this-rule,expected-not-scanned,Scoped control; unrelated audit rules may still report.
+aurora-wallet,src/main/java/lab/wallet/SafeIntegration.java,cookie,java/sensitive-cookie-not-httponly,no-finding-for-this-rule,expected-not-scanned,Scoped control; unrelated audit rules may still report.
+aurora-wallet,src/main/java/lab/wallet/SafeIntegration.java,cookie,cwe1004-cookie-missing-httponly-servlets,no-finding-for-this-rule,expected-not-scanned,Scoped control; unrelated audit rules may still report.
