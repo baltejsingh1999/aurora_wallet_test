@@ -24,3 +24,4 @@ All credentials are synthetic fixture strings. Vulnerable integrations, old libr
 Scan **main sources** with resolved Maven dependency types. Use raw `rule_finding_out.csv` / `finding_out.csv` to assess rule coverage: the bundle collapses findings sharing a file, line and CWE in its deduped output. ReDoS requires extractor preprocessing facts. CodeQL query availability and IDs differ from the custom DL rules.
 
 See `VALIDATION.md` for build/runtime results and `negative-controls.csv` for scoped negative expectations.
+# aurora_wallet_test
